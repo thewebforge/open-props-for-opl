@@ -1,13 +1,13 @@
 @import "theme.css";
 
 :where(html) {
-  --scrollthumb-color: var(--gray-6);
+  --o-scrollthumb-color: var(--o-gray-6);
 
-  scrollbar-color: var(--scrollthumb-color) transparent;
-  accent-color: var(--link);
-  caret-color: var(--link);
+  scrollbar-color: var(--o-scrollthumb-color) transparent;
+  accent-color: var(--o-link);
+  caret-color: var(--o-link);
 
-  @media (--OSlight) {
-    --scrollthumb-color: var(--gray-7);
+  @media (--o-OSlight) {
+    --o-scrollthumb-color: var(--o-gray-7);
   }
 }

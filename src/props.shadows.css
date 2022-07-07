@@ -42,7 +42,7 @@
   --o-inner-shadow-4: inset 0 2px 14px 0 hsl(var(--o-shadow-color) / calc(var(--o-shadow-strength) + 9%));
 }
 
-@media (--OSdark) {
+@media (--o-OSdark) {
   :where(html) {
     --o-shadow-color: 220 40% 2%;
     --o-shadow-strength: 25%;

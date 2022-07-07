@@ -1,14 +1,14 @@
 :where(html) {
-  --highlight-size: 10px;
-  --highlight-color: hsl(0 0% 0% / 20%);
+  --o-highlight-size: 10px;
+  --o-highlight-color: hsl(0 0% 0% / 20%);
 
-  --highlight: 
+  --o-highlight: 
     0 0 0 
-    var(--highlight-size) 
-    var(--highlight-color)
+    var(--o-highlight-size) 
+    var(--o-highlight-color)
   ;
 
-  @media (--OSdark) {
-    --highlight-color: hsl(0 0% 100% / 20%);
+  @media (--o-OSdark) {
+    --o-highlight-color: hsl(0 0% 100% / 20%);
   }
 }

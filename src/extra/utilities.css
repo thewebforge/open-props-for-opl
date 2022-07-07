@@ -5,17 +5,17 @@
 }
 
 .border-between-inline > * + * {
-  border-inline-start-width: var(--border);
+  border-inline-start-width: var(--o-border);
 }
 
 .border-between-block > * + * {
-  border-block-start-width: var(--border);
+  border-block-start-width: var(--o-border);
 }
 
 .gradient-border {
-  border-width: var(--size-3);
+  border-width: var(--o-size-3);
   border-image-slice: 1;
-  border-image-source: var(--conic-gradient-3);
+  border-image-source: var(--o-conic-gradient-3);
 }
 
 .truncate {
@@ -27,8 +27,8 @@
 .fade-up-and-in {
   opacity: 0;
   animation: 
-    var(--animation-fade-in) forwards,
-    var(--animation-slide-up) forwards;
+    var(--o-animation-fade-in) forwards,
+    var(--o-animation-slide-up) forwards;
   animation-delay: .3s, 0s;
   animation-duration: .7s, 1s;
 }
